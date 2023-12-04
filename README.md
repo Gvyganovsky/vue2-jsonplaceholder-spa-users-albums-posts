@@ -1,24 +1,40 @@
-# polis812
+# Название проекта
 
-## Project setup
-```
-npm install
-```
+Краткое описание проекта.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Описание
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Данный проект представляет собой SPA приложение, в котором используется API jsonplaceholder, для создания фейковых данных пользователей.
+Приложение состоит из:
+1) Список пользователей
+2) Страница конкретного пользователя, которая содержит список альбомов и список постов пользователя. Каждый элемент списка альбомов это карусель с первыми 5 фото из этого альбома.
+3) Добавить возможность делать ссылки на страницу конкретного пользователя с параметром, какую страницу открыть "список альбомов" или "список постов"
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Установка
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Клонируйте репозиторий: `git clone https://github.com/Gvyganovsky/Breadcrumbsvue2-jsonplaceholder-spa-users-albums-posts.git`
+2. Перейдите в папку проекта: `cd vue2-jsonplaceholder-spa-users-albums-posts`
+3. Установите зависимости: `npm install`
+
+## Использование
+
+Для запуска наберите в терминале: `npm run serve`
+
+## Технологии
+
+- Vue.js 2
+- Vuex
+- Vue Router
+- SCSS
+
+## API
+
+Для данного проекта использовался API [JSONPlaceholder](https://jsonplaceholder.typicode.com/), который предоставляет данные для реализации функционала.
+
+## GitHub Pages
+
+Ссылка на развернутый проект на GitHub Pages, если он был размещен там.
+
+## Автор
+
+Email: gvyganovsky@gmail.com
